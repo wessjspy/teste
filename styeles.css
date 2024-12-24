@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 20%;
+    height: 100px;
+    top: 50px;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+
+.header .name{
+    transition: transform 0.3s ease; 
+}
+
+.header .name:hover {
+    transform: scale(1.9);
+    color: red;
+}
+
+.header .profile {
+    border-radius: 50%;
+    height: 90%;
+    left: 80%;
+    position: absolute;
+    top: -10px;
+    transition: transform 0.3s ease; 
+}
+
+.header .profile:hover {
+    transform: scale(1.3);
+}
+
+.header-background {
+    position: absolute;
+    top: -30px; 
+    left: 0%;
+    transform: translateX(-50%);
+    width: 100%; 
+    height: 300px;
+    background-color: rgb(0, 195, 255); 
+    border-radius: 50%; 
+    z-index: 1; 
+}
+.header-background2 {
+    position: absolute;
+    top: -30px; 
+    left: 49%;
+    transform: translateX(-50%);
+    width: 200px; 
+    height: 200px; 
+    background-color: rgb(0, 195, 255); 
+    border-radius: 50%; 
+    z-index: -3; 
+}
+.header-background3 {
+    position: absolute;
+    top: -70px; 
+    left: 38%;
+    transform: translateX(-50%);
+    width: 400px; 
+    height: 400px; 
+    background-color: rgb(0, 195, 255); 
+    border-radius: 50%; 
+    z-index: -3; 
+}
+.header-backgroundW{
+    position: absolute;
+    top: 0px; 
+    left: 3%;
+    transform: translateX(-50%);
+    width: 90%; 
+    height: 150px; 
+    background-color: rgb(0, 195, 255); 
+    z-index: -3; 
+}
+
+.header .des {
+    color: yellow;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 20%;
+    top: 70px;
+    width: 100%;
+    transition: transform 0.4s ease; 
+}
+
+.header .des:hover {
+    transform: scale(1.3);
+}
+
+.icons {
+    z-index: 10;
+}
+
+.icons .js{
+    position: absolute;
+    display: flex;
+    top: 110%;
+    left: 169%;
+    width: 30%;
+    transition: transform 0.3s ease; 
+}
+
+.icons .js:hover {
+    transform: scale(1.3);
+}
+.icons .py {
+    position: absolute;
+    display: flex;
+    top: -29%;
+    left: 235%;
+    height: 110%;
+    transition: transform 0.3s ease; 
+}
+
+.icons .py:hover {
+    transform: scale(1.3);
+}
+.icons .css {
+    position: absolute;
+    display: flex;
+    top: 55%;
+    left: 210%;
+    height: 110%;
+    transition: transform 0.3s ease; 
+}
+
+.icons .css:hover {
+    transform: scale(1.3);
+}
+
+.icons .html {
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 185%;
+    height: 110%;
+    transition: transform 0.3s ease; 
+}
+
+.icons .html:hover {
+    transform: scale(1.3);
+}
+
+.icons .leg {
+    color: rgb(0, 84, 139);
+    position: absolute;
+    display: flex;
+    left: 140%;
+    top: -30px;
+    width: 100%;
+    transition: transform 0.3s ease; 
+}
+
+.icons .leg:hover {
+    transform: scale(1.5);
+    color: red;
+}
+
+.icons .edJs {
+    color: yellow;
+    display: flex;
+    position: absolute;
+    top: 185px;
+    left: 90px;
+    font-size: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.icons .edJs:hover {
+    transform: scale(1.9);
+    color: rgb(255, 255, 255);
+}
+
+.icons .console {
+    display: flex;
+    position: absolute;
+    border-radius: 1%;
+    width: 100%;
+    top: 180px;
+    left: 50px;
+}
+
+.projects {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    width: 100%;
+    color: black;
+    transition: transform 0.3 ease;
+}
+.projects h1:hover{
+    color: rgb(0, 109, 182);
+}
+
+.bcc-projects{
+    background-color: yellow;
+    display: flex;
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    border-radius: 50%;
+    top: 400px;
+    left: -150%;
+}
+
+.projects .py{
+    list-style-type: none;
+    margin-bottom: 50px;
+    position: absolute;
+    color: rgb(0, 109, 182);
+    top: 45px;
+    left: 5px;
+}
+
+.projects .py li{
+    margin-bottom: 10px;
+    transition: transform 0.3 ease;
+}
+.projects .py li:hover{
+    color: rgb(0, 0, 0);
+}
+
+.projects .vdh{
+    display: flex;
+    position: absolute;
+    width: 250%;
+    left: 40%;
+    top: 30px;
+    border-radius: 50%;
+}
+
+.bcc2{
+    background-color: yellow;
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    top: 500px;
+    left: 100%;
+}
